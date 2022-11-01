@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial scale= 1.0">
+        <link rel="stylesheet" href="stylesheet/stylesheet1.css">
+        <style>
+#no    {
+    background-color: gray;
+    font-size: medium;
+}
+
+textarea    {
+    background-color: white;
+    width: 98%;
+    height: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+body    {
+    background-color: lightgray;
+}
+
+h1      {
+    color:rgb(47, 56, 40);
+    text-align: center;
+}
+
+p   {
+    font-size: medium;
+}
+
+        </style>
+    </head>
+
+<body>
+
+    <ul id="yes">
+        <li title="Home sweet home"><a href="index.html">Home</a></li>
+        <li title="Grab a pizza, it's gist time!"><a href="news.html">News</a></li>
+        <li title="Wanna reach out?"><a href="#">Contact</a></li>
+        <li title="Get to know us"><a href="#">About</a></li>
+        <li title="Welcome on board"><a href="login.html">Login</a></li>
+        <li title="Let's hear from you"><a href="feedback.html">Feedback</a></li>
+        <li><a href="#" onclick="alert('&hearts; &hearts;&hearts; We love you!!! &hearts; &hearts;&hearts;')">&hearts;</a></li>
+    </ul>
+
+<h1 title="What do you think?">FEEDBACK FORM</h1>
+
+<form action="https://www.google.com" method="POST" autocomple="on" >
+
+    <textarea name="message"></textarea> <br>
+ <p>Full Name: <br><input type="text" name="fullname" required></p>
+ <p>Email:  <br><input type="email" required></p>
+
+        <input id="no" type="submit" value="Submit">
+
+</form>
+
+
+
+
+
+
+
+</body>
+</html>
